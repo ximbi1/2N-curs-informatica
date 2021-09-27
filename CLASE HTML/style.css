@@ -1,0 +1,28 @@
+#demotext {
+    color: #FFFFFF;
+    background: #996D6D;
+    text-shadow: #474747 3px 5px 2px;
+    color: #FFFFFF;
+    background: #996D6D;
+}
+
+#proba {
+    background: #CE5937;
+    background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+}
+
+#border {
+    border: 3px dotted #1C6EA4;
+    border-radius: 40px;
+}
+
+#transparent:hover {
+    opacity: 0.5;
+
+}
+
+#movement {
+    transform: rotateX(150deg)
+}
