@@ -1,0 +1,61 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="./login.css" />
+    <title>act 3</title>
+   </head>
+  <body>
+  <center>
+
+   </figure>
+    <div class="container mt-5" id="container">
+      <div class="form-container sign-up-container mt-2">
+        <form action="#">
+          <h1 class="font-weight-bold">LO-FI CHILL</h1>
+          <h2 class="font-weight-bold">Crear Compte</h2>
+          <input type="text" placeholder="Nom" />
+          <input type="email" placeholder="Correu" />
+          <input type="password" placeholder="Contrasenya" />
+          <button class="but">Unir-se</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1 class="font-weight-bold">LO-FI CHILL</h1>
+          <h2 class="font-weight-bold">Entrar</h2>
+          <input type="email" placeholder="Correu" />
+          <input type="password" placeholder="Contrasenya" />
+          <button class="but"><a href="index.html">Entrar</a></button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="font-weight-bold">Un plaer tindre't aqui!</h1>
+            <h1>
+              <p>Ja tens un compte creat? <br />Entra-hi!</p>
+              <button class="but" id="signIn"> Entrar</button>
+            </h1>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1 class="font-weight-bold">Hola amic!</h1>
+            <p>Encara no t'has creat cap compte? Uneix-te!</p>
+            <button class="but" id="signUp">Registrarse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const signUpButton = document.getElementById("signUp");
+      const signInButton = document.getElementById("signIn");
+      const container = document.getElementById("container");
+
+      signUpButton.addEventListener("click", () => {
+        container.classList.add("right-panel-active");
+      });
+
+      signInButton.addEventListener("click", () => {
+        container.classList.remove("right-panel-active");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<ol>
+                <a>
+                    <details>Els top 10 videojocs que han fet història a la teva vida:
+                        <li>Mario bros</li>
+                        <li>NFS</li>
+                        <li>mario kart</li>
+                        <li>lego batman</li>
+                        <li>motocross legend</li>
+                        <li>spiderman</li>
+                        <li>asphalt</li>
+                        <li>angry birds</li>
+                        <li>COD</li>
+                        <li>GTA5</li>
+                    </details>
+                </a>
+            </ol>
+            <li>
+                <a>
+                    <details>
+                        <li>Mario bros</li>
+                        <li>NFS</li>
+                        <li>mario kart</li>
+                        <li>lego batman</li>
+                        <li>motocross legend</li>
+                        <li>spiderman</li>
+                        <li>asphalt</li>
+                        <li>amgry birds</li>
+                        <li>COD</li>
+                        <li>GTA5</li>
+                    </details>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <details>
+                        <li>Mario bros</li>
+                        <li>NFS</li>
+                        <li>mario kart</li>
+                        <li>lego batman</li>
+                        <li>motocross legend</li>
+                        <li>spiderman</li>
+                        <li>asphalt</li>
+                        <li>amgry birds</li>
+                        <li>COD</li>
+                        <li>GTA5</li>
+                    </details>
+                </a>
+            </li>
+            </ul>
+            <br />
+
+
+            css
+
+            details {
+    width: 250px;
+    padding: 15px;
+    color: #fff;
+    background: #15151500;
+    list-style: none;
+    margin: 12px;
+    cursor: pointer;
+    transition: all.4s;
+    position: relative;
+}
+
+details:hover {
+    transform: translate (20px);
+}
+
+details:before,
+details:after {
+    content: "";
+    position: absolute;
+    background: #f8f8f800;
+    color: rgb(10, 10, 10);
+    transition: all.4s;
+}
+
+details::before {
+    width: 20px;
+    height: 100%;
+    top: 0;
+    left: -30px;
+}
+
+details::after {
+    width: 95%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+
+details:hover::before,
+details:hover::after {
+    background: #00ffff;
+    box-shadow: 0 0 10px rgb(0, 255, 255);
+}

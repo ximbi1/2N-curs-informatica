@@ -1,0 +1,66 @@
+body {
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    padding: 5vmin;
+    background-image: url("water6.gif");
+    background-attachment: fixed;
+}
+
+figure {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(128, 21, 21, 0);
+    color: white;
+}
+
+#note {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(39, 38, 38, 0.171);
+    backdrop-filter: blur(3px);
+    color: white;
+    padding: 5vmin;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 30vmin;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100vh;
+}
+
+li {
+    width: 300px;
+    padding: 15px;
+    color: #fff;
+    background: #15151500;
+    list-style: none;
+    margin: 12px;
+    cursor: pointer;
+    transition: all.4s;
+    position: relative;
+    text-align: center;
+}
+
+a {
+    font: sans-serif;
+}
+
+table {
+    border: (2px) border-color red transparent;
+    font-size: 20px;
+}
