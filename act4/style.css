@@ -1,0 +1,101 @@
+@media screen and (min-width: 403px) {
+    #form {
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.4)
+    }
+    body {
+        margin: 30px 50px 5px 50px;
+        background: url("water1.gif") no-repeat fixed;
+        background-size: cover;
+    }
+    input {
+        font-weight: bold;
+        padding: 5px 10px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        border-radius: 10px 0px 10px;
+        color: white;
+        background: rgba(0, 0, 0, 0.466);
+    }
+    label {
+        width: 50%;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius: 50px;
+        padding: 5px 14px;
+    }
+    #qual,
+    #qual1 {
+        display: grid;
+        grid-template-columns: 300px 200px;
+        justify-content: center;
+    }
+    fieldset {
+        border: 1px white outset;
+    }
+    legend {
+        font-size: 1em;
+        color: white;
+        font-weight: bold;
+    }
+    .submit {
+        text-align: right;
+    }
+    .submit input {
+        border-radius: 3px;
+        text-align: center;
+        width: 20%;
+    }
+    #col {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 402px) {
+    body {
+        background: url("water1.gif") no-repeat fixed;
+        background-size: cover;
+        color: white;
+        margin: 10px 10px;
+    }
+    #form {
+        background: rgba(0, 0, 0, 0.4)
+    }
+    label {
+        margin-left: 5px;
+        display: inline-flex;
+        font-size: 1.2em;
+        line-height: 50px;
+        text-align: center;
+    }
+    input {
+        padding: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 15px 0px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    #qual1 {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        justify-content: space-evenly;
+    }
+    #qual {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+    .submit {
+        text-align: right;
+    }
+    .submit input {
+        border-radius: 3px;
+        text-align: center;
+        width: 20%;
+    }
+    #space {
+        margin-left: 20px;
+    }
+}

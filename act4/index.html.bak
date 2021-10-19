@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body>
+    <center>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Learning HTML</title>
+      <link rel="stylesheet" href="style.css">
+      <div id="form" <form="" action="" target="_blank" method="post" autocomplete="on"
+        name="detail" accept-charset="utf-8" enctype=""> <label for="name">posa
+          el teu nom</label> <span class="line"></span> <br>
+        <span id="space"> <input id="name" placeholder="NOM" required="" size="8"
+            type="txt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id="name" placeholder="Cognom"
+            required="" size="7" type="txt"> /&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input id="name" placeholder="seg cognom" required="" size="7" type="txt">
+          <br>
+          <br>
+        </span> <label for="qual1">posa el teu genere</label>
+        <div id="qual1"> <span> <input id="male" value="Male" name="gen" checked="checked"
+              type="radio"> <label for="male">Home</label> </span> <span> <input
+              id="female" value="Female" name="gen" type="radio"> <label for="female">Dona</label>
+          </span> </div>
+        <br>
+        <br>
+        <label for="dob">Posa la teva edat</label> <span class="line"></span> <br>
+        <span id="space"> <input id="dob" required="" name="dob" type="date"> <br>
+          <br>
+        </span>
+        <div> <label for="ulls">De quin color son els teus ulls:</label> <br>
+          <select name="color" id="ulls">
+            <option value="marrons">marrons</option>
+            <option value="blaus">blaus</option>
+            <option value="marrons">verds</option>
+            <option value="blaus">negres</option>
+          </select>
+        </div>
+        <br>
+        <br>
+        <label for="email">Posa el teu Email</label> <span class="line"></span>
+        <br>
+        <span id="space"> <input id="email" value="" placeholder="" required="1"
+            type="txt"> <br>
+          <br>
+        </span>
+        <fieldset> <legend>Ufs cursades</legend>
+          <div id="qual"> <span> <input id="ten" value="Matriculation" name="edu"
+                type="checkbox"> <label for="ten">M01</label> </span> <span>
+              <input id="hsec" value="Higher-Secondary" name="edu" type="checkbox">
+              <label for="hsec">High. Secondary</label> </span> <span> <input
+                id="gr" value="Graduate" name="edu" type="checkbox"> <label for="gr">Graduate</label>
+            </span> <span> <input id="pgr" value="Post-Graduate" name="edu" type="checkbox">
+              <label for="pgr">P. Graduate</label> </span> </div>
+        </fieldset>
+        <br>
+        <label for="col">Choose your lucky color</label> <input id="col" name="color"
+          value="rgb(255, 0 ,0)" type="color"> <br>
+        <br>
+        <span id="line"></span>
+        <div class="submit"> <input value="submit" type="submit"> <input value="reset"
+type="reset"> </div>
+      </div>
+      <script src="script.js"></script> </center>
+  </body>
+</html>
